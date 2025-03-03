@@ -12,6 +12,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding-top: 24px;
+    padding-right: 1169px;
+    padding-bottom: 24px;
+    padding-left: 156px;
 }
 
 .logo-two {
@@ -188,4 +192,5 @@ div {
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
