@@ -1,4 +1,11 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
+    width: 1440px;
     background: #fff;
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -12,13 +19,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-top: 24px;
-    padding-right: 1169px;
-    padding-bottom: 24px;
-    padding-left: 156px;
+    margin-right: 76px;
 }
 
-.logo-two {
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -35,6 +39,14 @@ span {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .nav {
@@ -55,15 +67,28 @@ span {
     font-style: normal;
 }
 
+.mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .mail-tel {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .mail-tel:hover,
-.mail-tel:focus {
+.mail-tel:focus,
+.mail:hover,
+.mail:focus {
     color: #404bbf;
 }
 
@@ -167,7 +192,7 @@ span {
     background-color: #2e2f42;
 }
 
-.logo-two>.span-one {
+.logo-footer>.span-one {
     color: #f4f4fd;
 }
 
