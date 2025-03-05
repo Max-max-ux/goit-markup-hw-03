@@ -123,8 +123,6 @@ span {
     height: 56px;
     border: none;
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
 }
 
 .button:hover,
@@ -147,11 +145,13 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
-.skills {
+.skills-list {
     display: flex;
     gap: 24px;
+    width: calc(100%-72px)/4;
 }
 
 .paragraf {
