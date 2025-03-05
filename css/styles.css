@@ -135,8 +135,12 @@ span {
     padding: 120px 0;
 }
 
-.name_two-title-section-two {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
 .name_two-section-two {
