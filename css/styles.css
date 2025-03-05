@@ -152,9 +152,13 @@ span {
     margin-bottom: 8px;
 }
 
-.skills-list {
+.skills {
     display: flex;
     gap: 24px;
+
+}
+
+.skills-list {
     width: calc(100%-72px)/4;
 }
 
