@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 1440px;
+
     background: #fff;
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -123,6 +123,7 @@ span {
     height: 56px;
     border: none;
     cursor: pointer;
+
 }
 
 .button:hover,
@@ -254,7 +255,7 @@ div {
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
 }
