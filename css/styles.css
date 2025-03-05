@@ -175,6 +175,7 @@ span {
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .name-three {
@@ -184,10 +185,18 @@ span {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.foto-list {
+    display: flex;
+    gap: 24px;
 }
 
 .li-one {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .name_h-three {
@@ -230,10 +239,13 @@ span {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-footer>.span-one {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .paragraf-footer {
