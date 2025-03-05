@@ -55,6 +55,7 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav:hover,
@@ -67,13 +68,17 @@ span {
     font-style: normal;
 }
 
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
 .mail {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .mail-tel {
@@ -81,8 +86,6 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .mail-tel:hover,
@@ -94,6 +97,7 @@ span {
 
 .main-title {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .name-title {
@@ -103,6 +107,7 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .button {
@@ -112,6 +117,14 @@ span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
 }
 
 .button:hover,
@@ -120,12 +133,25 @@ span {
     cursor: pointer;
 }
 
+.section-two {
+    padding: 120px 0;
+}
+
+.name_two-title-section-two {
+    visibility: hidden;
+}
+
 .name_two-section-two {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
 }
 
 .paragraf {
