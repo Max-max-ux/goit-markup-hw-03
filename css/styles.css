@@ -22,6 +22,15 @@ body {
     margin-right: 76px;
 }
 
+span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
 .logo-footer {
     color: #f4f4fd;
     display: inline-block;
@@ -36,13 +45,13 @@ body {
     color: #4d5ae5;
 }
 
-span {
+.logo-footer>.span-one {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .menu {
@@ -262,6 +271,7 @@ button {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    flex-direction: column;
 }
 
 .name_h-three-section-four {
