@@ -23,7 +23,11 @@ body {
 }
 
 .logo-footer {
-    font-family: 'Raleway', sans-serif;
+    color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: 'Raleway',
+        sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -270,12 +274,6 @@ span {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-}
-
-.logo-footer>.span-one {
-    color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .paragraf-footer {
