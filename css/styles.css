@@ -11,6 +11,47 @@ body {
     color: #434455;
 }
 
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -19,7 +60,17 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 span {
@@ -56,20 +107,13 @@ span {
 
 .menu {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
 }
 
-.nav {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0;
-}
+
 
 .nav:hover,
 .nav:focus {
@@ -79,10 +123,12 @@ span {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -91,7 +137,8 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+    padding: 24px 0;
+    gap: 40px;
 }
 
 .mail-tel {
@@ -121,11 +168,15 @@ span {
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 button {
     border-radius: 4px;
-    padding: 16px 32px;
+    margin-left: auto;
+    margin-right: auto;
     width: 169px;
     height: 56px;
 
@@ -305,41 +356,12 @@ img {
     display: block;
 }
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
 
 div {
     display: flex;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    flex-direction: column;
-}
 
-.navigation {
-    display: flex;
-    align-items: center;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    padding: 0;
-    margin: 0;
-}
 
 p {
     margin: 0;
