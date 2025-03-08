@@ -361,6 +361,8 @@ button {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
+    height: 112px;
 }
 
 img {
@@ -384,8 +386,4 @@ a {
 
 .container-footer {
     display: block;
-    width: 264px;
-    height: 112px;
-    margin-left: auto;
-    margin-right: auto;
 }
