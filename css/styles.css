@@ -302,7 +302,6 @@ button {
 
 .container-section-four {
     /* display: flex; */
-    flex-direction: column;
 }
 
 .name-four {
@@ -368,7 +367,7 @@ img {
 
 
 div {
-    display: flex;
+    /* display: flex; */
 }
 
 p {
